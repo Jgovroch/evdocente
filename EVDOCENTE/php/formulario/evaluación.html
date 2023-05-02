@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Evaluación docente</title>
+  <link rel="stylesheet" href="Evaluación.css">
+
+</head>
+<body>
+    <img src="https://utc.mx/wp-content/uploads/2020/02/BECA-UTC.jpg" >
+    <form id="evaluacionForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="materia">Materia:</label>
+        <input type="text" id="materia" name="materia" required>
+        <br>
+        <label for="evaluacion">Evaluación:</label>
+        <input type="number" id="evaluacion" name="evaluacion" min="1" max="10" required>
+        <br>
+
+  <h2 id="er">Evaluación docente</h2>
+  <form>
+    <fieldset>
+      <legend>Preguntas de evaluación:</legend>
+      <ol>
+        <li>
+          <h2 id="ex">¿El docente llega puntual a las clases?</h2>
+          <ul>
+            <li><input type="radio" id="p1-op1" name="p1" value="Si"><label for="p1-op1">Si</label></li>
+            <li><input type="radio" id="p1-op2" name="p1" value="No"><label for="p1-op2">No</label></li>
+            <li><input type="radio" id="p1-op3" name="p1" value="A veces"><label for="p1-op3">A veces</label></li>
+          </ul>
+        </li>
+        <li>
+          <h2 id="ex">¿La explicación del docente es clara y comprensible?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 id="ex">¿El docente tiene un buen conocimiento del tema que enseña?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 id="ex">¿El docente fomenta la participación activa de los estudiantes?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 id="ex">¿El docente evalúa de manera justa y objetiva?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        
+        <li>
+          <h2 id="ex">¿El docente refleja interes por sus alumnos y su aprendizaje?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 id="ex">¿El docente se dirije a los alumnos con respeto?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2 id="ex">¿El docente corrige de manera adecuada los trabajos?</h2>
+          <ul>
+            <li><input type="radio" id="p2-op1" name="p2" value="Si"><label for="p2-op1">Si</label></li>
+            <li><input type="radio" id="p2-op2" name="p2" value="No"><label for="p2-op2">No</label></li>
+            <li><input type="radio" id="p2-op3" name="p2" value="A veces"><label for="p2-op3">A veces</label></li>
+          </ul>
+        </li>
+              
+      </ol>
+    </fieldset>
+    <fieldset>
+      <legend>Comentarios adicionales:</legend>
+      <label for="comentarios">Escribe aquí tus comentarios:</label>
+      <textarea id="comentarios" name="comentarios"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Preguntas adicionales:</legend>
+      <label for="pregunta">¿Tienes alguna pregunta adicional sobre el desempeño del docente?</label>
+      <textarea id="pregunta" name="pregunta"></textarea>
+      
+    </fieldset>
+    <button type="submit" id="enviar">Enviar evaluación</button>
+  </form>
+</body>
+</html>
+</form>

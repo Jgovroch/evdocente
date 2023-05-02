@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Evaluación Docente</title>
+	<link rel="stylesheet" href="evaluacion.css">
+   
+</head>
+<body>
+	<img src="https://utc.mx/wp-content/uploads/2020/02/BECA-UTC.jpg" >
+    <form id="myForm">
+        <div id="questions">
+            <div class="question">
+                <label for="question0">Pregunta 1: </label>
+                <input type="text" name="question0" id="question0" placeholder="Ingrese su pregunta aquí">
+                <label for="answer0">Respuestas:</label>
+                <div class="answers">
+                    <input type="text" name="option10" placeholder="Opción 1">
+                    <input type="text" name="option20" placeholder="Opción 2">
+                    <input type="text" name="option30" placeholder="Opción 3">
+                    <input type="text" name="option40" placeholder="Opción 4">
+                </div>
+                <button type="button" onclick="editQuestion(0)">Editar</button>
+                <button type="button" onclick="deleteQuestion(0)">Eliminar</button>
+            </div>
+        </div>
+        <div>
+            <label for="comments">Comentarios adicionales:</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+        <button type="button" onclick="addQuestion()">Agregar pregunta</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="evaluacion.js"></script>
+</body>
+</html>

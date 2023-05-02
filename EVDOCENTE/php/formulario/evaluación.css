@@ -1,0 +1,74 @@
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #d55404;
+    background-color: rgb(240, 110, 3);
+    border-style: solid;
+    border-width: 5px;
+    width: 550px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #060606;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  button[type="submit"] {
+    background-color: #d36c06;
+    color: #e6e3e3;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  #er {
+    color: rgb(9, 7, 8);
+    text-align: center;
+  }
+
+  body {
+    background-color: #310bb9;
+  }
+
+  img {
+    padding: 10px;
+    width: 300px;
+    object-position: 150% 150%;
+    
+  }
+
+  #ex {
+ color: #f9f6f4;   
+ background-color: rgb(34, 3, 240);
+ border-style: solid;
+ border-color: rgb(239, 117, 4);
+ 
+  }
+
+  legend {
+    color: #130808;   
+     }

@@ -1,0 +1,82 @@
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #0000f1 0, #0000f1 12.5%, #0000f1 25%, #0000f1 37.5%, #0000f1 50%, #0000f1 62.5%, #f73808 75%, #f73808 87.5%, #f73808 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+form{
+    width: 600px;
+    padding: 6rem;
+    background-color: #f5501d;
+    border-radius: 20px;
+    color: #0f1213;
+}
+
+h1{
+    width: 95%;
+    color: #fffefe;
+}
+
+label{
+    color: #fff;
+    font-size: 18px;
+    padding: 11px;
+    font-weight: 350;
+}
+
+input{
+    display: block;
+    border: 2px solid #ed4e0a;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    float: right;
+    background-color: #0b0b0e;
+    padding: .5rem;
+    color: #fff;
+    border: none;
+    width: 60%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #000;
+}
+
+.error{
+    background-color: #af4a4a;
+    color: #000;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
